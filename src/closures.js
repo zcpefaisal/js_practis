@@ -9,3 +9,10 @@ function makeFunc() {
 var myFunc = makeFunc();
 myFunc();
 console.log(makeFunc());
+
+//fresh function
+// var a = 1;
+// function test(){
+//   console.log(a);
+// }
+// test();
