@@ -5,7 +5,7 @@ var dog = {
     }
 }
 
-var x = dog.bark; //get out method from dog oject 
+var x = dog.bark; //get out method from dog object 
 dog.bark(); //general call
 x(); //this is undifine from dog object contet
-x.call(dog);//pass contaxt a object as value of this,  
+x.call(dog);//pass contaxt a object as value of this,
